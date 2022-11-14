@@ -1,0 +1,14 @@
+html {
+    font-size: 16px;
+    height: 20px;
+}
+.header1 {
+    background-color: rgb(42, 172, 16);
+    color: rgb(255, 47, 47);
+}
+.header2 {
+    background-color:bisque;
+}
+#firstheader {
+    height: 3.5rem;
+}

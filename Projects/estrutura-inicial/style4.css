@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    padding: 10px;
+}
+
+.bloco {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+@media (min-width:320px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media (min-width:768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+@media (min-width:1024px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+}
+

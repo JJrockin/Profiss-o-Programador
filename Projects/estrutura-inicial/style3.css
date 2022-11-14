@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* .flex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+} */
+
+.bloco {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: animation;
+    animation-duration: 2s ;
+    position: absolute;
+}
+
+/* @keyframes animation {
+    from {
+        border-radius: 10px;
+    }
+    to {
+        border-radius: 50%;
+    }
+} */
+
+@keyframes animation { /* executado com base na percentagem do tempo de animação */
+    0% {top: 0;left: 0;}
+    10% {top: 10;left: 0;}
+    20% {top: 20;left: 0;}
+    30% {top: 60px;}
+    40% {top: 70px;}
+    50% {top: 80px;}
+    100% {top: 100px;}
+}
