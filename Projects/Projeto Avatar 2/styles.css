@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "toruksc regular";
+    src: url(/trailer_&_logo/torukscregular-z8ma1.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -25,5 +32,15 @@ ul {
 }
 
 li {
-    
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "toruksc regular";
+
+}
+
+img {
+    height: 180px;
 }
