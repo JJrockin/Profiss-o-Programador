@@ -38,9 +38,12 @@ li {
     font-size: 19px;
     transition: .5s;
     font-family: "toruksc regular";
-
 }
 
-img {
+li:hover {
+    color: rgb(0, 177, 245);
+}
+
+#logo {
     height: 180px;
 }
