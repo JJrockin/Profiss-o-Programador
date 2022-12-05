@@ -45,5 +45,12 @@ li:hover {
 }
 
 #logo {
-    height: 180px;
+    height: 70px;
+}
+#banner {
+    background-image: url('https://i.ytimg.com/vi/RJ2E0Sn7Oqc/maxresdefault.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
 }
