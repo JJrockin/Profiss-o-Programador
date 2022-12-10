@@ -52,5 +52,110 @@ li:hover {
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
+    height: 500px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 70%;
+}
+
+#about {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: #fff;
+    font-size: 19px;
+    font-family: "toruksc regular";
+    width: 100%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(0, 177, 245);
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px; 
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
     height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;    /* pondo o nome do atores embaixo ou no final */
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: "toruksc regular";
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://images.contactmusic.com/newsimages/sam_worthington_enjoyed_going_underwater_in_the_avatar_sequel_2692922.jpg');  
+}
+
+.banner-2 {
+    background-image: url('https://br.web.img3.acsta.net/c_310_420/pictures/19/10/17/01/24/5480352.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://www.bollywoodhungama.com/wp-content/uploads/2022/06/Kate-Winslet-to-star-in-and-produce-HBO-limited-series-Trust-2.jpg');
 }
