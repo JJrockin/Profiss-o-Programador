@@ -1,8 +1,10 @@
 @font-face {
-    font-family: "toruksc regular";
-    src: url(/trailer_&_logo/torukscregular-z8ma1.ttf) format('truetype');
+    font-family: "torukscregular";
+    src: url(/trailer_&_logo/Font/torukscregular-z8ma1.ttf) format('truetype'),
+         url(/trailer_&_logo/Font/torukscregular-z8ma1-webfont.woff2) format('woff2'),
+         url(/trailer_&_logo/Font/torukscregular-z8ma1-webfont.woff) format('woff');
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
 }
 
 *{
@@ -37,7 +39,7 @@ li {
     cursor: pointer;
     font-size: 19px;
     transition: .5s;
-    font-family: "toruksc regular";
+    font-family: "torukscregular";
 }
 
 li:hover {
@@ -84,7 +86,7 @@ li:hover {
 .description {
     color: #fff;
     font-size: 19px;
-    font-family: "toruksc regular";
+    font-family: "torukscregular";
     width: 100%;
 }
 
@@ -141,7 +143,7 @@ li:hover {
     padding: 0 0 20px 10px;
     color: #fff;
     font-size: 17px;
-    font-family: "toruksc regular";
+    font-family: "torukscregular";
 }
 
 .card:hover {
@@ -158,4 +160,28 @@ li:hover {
 
 .banner-3 {
     background-image: url('https://www.bollywoodhungama.com/wp-content/uploads/2022/06/Kate-Winslet-to-star-in-and-produce-HBO-limited-series-Trust-2.jpg');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: "torukscregular";
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
