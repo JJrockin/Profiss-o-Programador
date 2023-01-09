@@ -241,3 +241,13 @@ span {
     }
 
 }
+
+#wallpaper {
+    display: flex;
+    
+    background-position: 100%; 
+    background-size: contain;
+    
+    width: 80vw;
+    height: 80vh;
+}
