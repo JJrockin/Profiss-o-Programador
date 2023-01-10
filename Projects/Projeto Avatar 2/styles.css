@@ -199,6 +199,10 @@ span {
         background-position: 40%;
         background-image: url('https://imageio.forbes.com/specials-images/imageserve/639e09798e6da4e16a8cea7f/Official-IMAX-poster-for--Avatar--The-Way-of-Water-/960x0.jpg?format=jpg&width=960');
         margin-bottom: 100px;
+        display: flex; 
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
     }
 
     #trailer-container {
