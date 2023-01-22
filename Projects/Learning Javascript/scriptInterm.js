@@ -52,14 +52,14 @@
 
 // Prototype
 
-function Game() {
-    this.jumped = () => alert('The character jumped');
-    this.laid = () => alert('The character laid down');
-}
+// function Game() {
+//     this.jumped = () => alert('The character jumped');
+//     this.laid = () => alert('The character laid down');
+// }
 
-Game.prototype.ran = () => alert('The character ran');
+// Game.prototype.ran = () => alert('The character ran');
 
-const newGame = new Game();
+// const newGame = new Game();
 
 // class, onde criamos métodos e propriedades
 
@@ -93,6 +93,21 @@ const newGame = new Game();
 
 // const person = new Pessoa(2,'Jeronimo', 29);
 
+// Desestruturação
+
+const Pessoa = {
+    nome: 'Jeronimo',
+    idade: 29,
+    endereço: {
+        cidade: 'Recife',
+        estado: 'PE'
+    },
+    altura: 1.95
+}
+
+const {nome,endereço} = Pessoa;
+
+console.log(endereço);
 
 
 
